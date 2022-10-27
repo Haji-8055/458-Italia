@@ -12,8 +12,8 @@ public class Mango {
 		this.price = price;
 	}
 
-	public void setTaste() {// Initializing using method
-		taste = "sweet";
+	public void setTaste(String taste) {// Initializing using method
+		this.taste = taste;
 	}
 
 	public void display() {

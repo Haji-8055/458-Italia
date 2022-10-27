@@ -12,8 +12,8 @@ public class ShirtBrand {
 		this.shirtColor = shirtColor;
 	}
 
-	public void setBrandName() {// Initializing using method
-		brandName = "Raymonds";
+	public void setBrandName(String brand) {// Initializing using method
+		brandName = brand;
 	}
 
 	public void display() {

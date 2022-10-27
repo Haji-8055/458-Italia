@@ -15,8 +15,8 @@ public class Flower {
 		this.quantity = quantity;
 	}
 
-	public void setPrice() {// Initializing using method
-		price = 25;
+	public void setPrice(int price) {// Initializing using method
+		this.price = price;
 
 	}
 

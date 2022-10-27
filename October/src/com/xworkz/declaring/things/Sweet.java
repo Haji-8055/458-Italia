@@ -12,8 +12,8 @@ public class Sweet {
 		this.price = price;
 	}
 
-	public void setQuantity() { // Initializing using method
-		quantity = 250d;
+	public void setQuantity(int quantity) { // Initializing using method
+		this.quantity = quantity;
 	}
 
 	public void display() {

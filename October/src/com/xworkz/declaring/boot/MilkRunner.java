@@ -7,7 +7,7 @@ public class MilkRunner {
 	public static void main(String[] args) {
 
 		Milk haalu = new Milk("rasgulla");
-		haalu.setpackagingMaterial();
+		haalu.setpackagingMaterial("tetraPack");
 		haalu.price = 45;
 		Milk.brand = "amul"; // static
 		haalu.display();

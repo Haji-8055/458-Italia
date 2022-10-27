@@ -9,7 +9,7 @@ public class ShirtBrandRunner {
 		ShirtBrand shirtBrand = new ShirtBrand("maroon");
 		shirtBrand.companyRevenue = 500000000000l;
 		ShirtBrand.shirtPrice = 2500; // static
-		shirtBrand.setBrandName();
+		shirtBrand.setBrandName("raymod");
 		shirtBrand.display();
 
 	}

@@ -7,7 +7,7 @@ public class SweetRunner {
 	public static void main(String[] args) {
 
 		Sweet sweet = new Sweet(480);
-		sweet.setQuantity();
+		sweet.setQuantity(250);
 		Sweet.color = "orange"; // static
 		sweet.shopName = "Mishra";
 		sweet.display();

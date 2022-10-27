@@ -12,8 +12,8 @@ public class Saloon {
 		this.name = name;
 	}
 
-	public void setSalonRent() {// Initializing using method
-		saloonRent = 200;
+	public void setSalonRent(int rent) {// Initializing using method
+		saloonRent = rent;
 	}
 
 	public void display() {

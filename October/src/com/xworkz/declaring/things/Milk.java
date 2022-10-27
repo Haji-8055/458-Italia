@@ -12,8 +12,8 @@ public class Milk {
 		this.milkDessert = milkDessert;
 	}
 
-	public void setpackagingMaterial() {// Initializing using method
-		packagingMaterial = "tetrapack";
+	public void setpackagingMaterial(String packagingMaterial) {// Initializing using method
+		this.packagingMaterial = packagingMaterial;
 	}
 
 	public void display() {

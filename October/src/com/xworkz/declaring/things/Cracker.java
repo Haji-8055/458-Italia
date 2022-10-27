@@ -12,8 +12,8 @@ public class Cracker {
 		this.quantity = quantity;
 	}
 
-	public void setUsedAt() {// Initializing using method
-		usedAt = "festivals";
+	public void setUsedAt(String usedAt) {// Initializing using method
+		this.usedAt =usedAt ;
 	}
 
 	public void display() {

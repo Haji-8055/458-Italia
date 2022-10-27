@@ -14,8 +14,8 @@ public class Lamp {
 
 	}
 
-	public void setPrice() {// Initializing using method
-		price = 855;
+	public void setPrice(int price) {// Initializing using method
+		this.price = price;
 	}
 
 	public void display() {

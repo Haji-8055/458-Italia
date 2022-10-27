@@ -8,7 +8,7 @@ public class SaloonRunner {
 
 		Saloon hajam = new Saloon("loreal");
 		hajam.acRoom = true;
-		hajam.setSalonRent();
+		hajam.setSalonRent(2500);
 		Saloon.noOfHairCutstyles = 20; // static
 		hajam.display();
 

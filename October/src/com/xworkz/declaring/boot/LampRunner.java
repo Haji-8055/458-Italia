@@ -8,7 +8,7 @@ public class LampRunner {
 
 		Lamp lamp = new Lamp("yellow");
 		lamp.working = true;
-		lamp.setPrice();
+		lamp.setPrice(85);
 		Lamp.lampMaterial = "paper"; // static
 		lamp.display();
 
