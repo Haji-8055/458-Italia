@@ -23,6 +23,9 @@ public class Person {
 		} else {
 			System.out.println("the array emails is null");
 		}
+		EmailCompany company=new EmailCompany();
+		company.display("Google","paul Buchheit" );
+
 		Job job=new Job();
 		job.display(25000, "Trainer", true);
 	}

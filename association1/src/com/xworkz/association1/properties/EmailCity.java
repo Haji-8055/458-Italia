@@ -3,7 +3,7 @@ package com.xworkz.association1.properties;
 public class EmailCity {
 
 	public void display(String name, boolean isDistrict, int pinCode, int population) {
-		System.out.println("====printing email ompany's city details====");
+		System.out.println("====printing email company's city details====");
 
 		System.out.println(" city name : " + name);
 		System.out.println(" isDistrict : " + isDistrict);

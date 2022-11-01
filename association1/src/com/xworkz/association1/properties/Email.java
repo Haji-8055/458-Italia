@@ -4,7 +4,8 @@ public class Email {
 	String id;
 	String password;
 	long mobileNo;
-	EmailCompany company=new EmailCompany();
+	
+	
 	public Email(String id, String password, long mobileNo)
 	{
 		this.id=id;
@@ -16,7 +17,6 @@ public class Email {
 		System.out.println(" persons email id : " + id);
 		System.out.println(" email password : " + password);
 		System.out.println(" mobile number : " + mobileNo);
-		company.display("Google","paul Buchheit" );
 		
 		
 		
