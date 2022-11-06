@@ -6,7 +6,7 @@ public class BoatRunner {
 
 	public static void main(String[] args) {
 	
-		Boat boat=new Boat("Aquador","yellow");
+		Boat boat=new Boat("Aquador","yellow");//
 		System.out.println("boat.name: "+boat.name);
 		System.out.println("boat.color: "+boat.color);
 		System.out.println("boat.companyName: "+boat.companyName);

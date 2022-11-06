@@ -4,7 +4,7 @@ public class Cigarette {
 	
 	public Cigarette() {
 		
-			System.out.println("created explicit constructor of cigarette");
+			System.out.println("created explicit constructor of cigarette");//
 		}
 	
 		public String brand="Gold flake";

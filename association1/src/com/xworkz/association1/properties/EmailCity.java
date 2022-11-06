@@ -9,6 +9,7 @@ public class EmailCity {
 		System.out.println(" isDistrict : " + isDistrict);
 		System.out.println(" city pinCode : " + pinCode);
 		System.out.println(" city population : " + population);
+		//
 
 	}
 }

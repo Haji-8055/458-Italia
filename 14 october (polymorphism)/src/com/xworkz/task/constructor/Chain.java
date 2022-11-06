@@ -11,7 +11,7 @@ public class Chain {
 	public String usedFor;
 	public boolean isFresh;
 
-	public Chain() {
+	public Chain() {//default
 
 	}
 
