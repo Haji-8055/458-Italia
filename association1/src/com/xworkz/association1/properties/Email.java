@@ -5,6 +5,10 @@ public class Email {
 	String password;
 	long mobileNo;
 	
+	EmailCompany company=new EmailCompany();
+
+	
+	
 	
 	public Email(String id, String password, long mobileNo)
 	{
@@ -19,7 +23,7 @@ public class Email {
 		System.out.println(" mobile number : " + mobileNo);
 		
 		
-		
+		company.display("Google","paul Buchheit" );
 
 	}
 

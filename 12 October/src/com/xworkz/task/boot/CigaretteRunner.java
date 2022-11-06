@@ -18,6 +18,7 @@ public class CigaretteRunner {
 		System.out.println("price: "+beedi.price);
 		System.out.println("manufactured year: "+beedi.mfgYear);
 		
+		//Assigning values using ref of copy
 		beedi.expiryYear=2024;
 		beedi.harmful=true;
 		beedi.available=true;

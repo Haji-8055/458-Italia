@@ -4,7 +4,7 @@ public class JobLocation {
 
 	JobCity city = new JobCity();
 	JobState state = new JobState();
-	JobCountry country = new JobCountry();
+	JobCountry country =new JobCountry();
 
 	public void dislpay(int no, String street) {
 
@@ -13,7 +13,9 @@ public class JobLocation {
 
 		city.display("bangalore", true, 560081, 32000000);
 		state.display("karnatak", "Bangalore", "bommai", 31);
-		country.display("india", "delhi", "modi", 28);
+		
+		country.setJobCountry("india", "delhi", "modi", 28);
+		country.display();
 
 	}
 

@@ -8,8 +8,8 @@ public class EmailCompany {
 		
 		System.out.println("====printing email company address====");
 
-		System.out.println(" copmany name: " + name);
-		System.out.println(" copmany ownerName: " + ownerName);
+		System.out.println(" company name: " + name);
+		System.out.println(" company ownerName: " + ownerName);
 
 		location.dislpay(46, "Mountain view");
 

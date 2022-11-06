@@ -14,7 +14,7 @@ public class Person {
 			for (int i = 0; i < emails.length; i++) {
 				Email mail = emails[i];
 				if (mail != null) {
-					System.out.println("  ***printing email "+(i+1)+" of person***");
+					System.out.println("  ***printing email " + (i + 1) + " of person***");
 					mail.display();
 				} else {
 					System.out.println("mail is null at index " + i);
@@ -23,10 +23,8 @@ public class Person {
 		} else {
 			System.out.println("the array emails is null");
 		}
-		EmailCompany company=new EmailCompany();
-		company.display("Google","paul Buchheit" );
 
-		Job job=new Job();
+		Job job = new Job();
 		job.display(25000, "Trainer", true);
 	}
 
