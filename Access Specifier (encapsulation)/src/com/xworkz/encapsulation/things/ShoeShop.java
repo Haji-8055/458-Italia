@@ -23,6 +23,8 @@ public class ShoeShop {
 		System.out.println("Validity : " +shoe.getValidity());
 		System.out.println("Comfort : " +shoe.isComfort());
 		
+		
+		
 
 		shoe.setMaterial("blown rubber");
 		System.out.println("modifying material using setter method  : "+shoe.getMaterial());
