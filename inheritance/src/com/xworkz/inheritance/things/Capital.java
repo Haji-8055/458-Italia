@@ -6,3 +6,4 @@ public class Capital extends Place {
 	Object bangalore6=new Capital();
 
 }
+ 
