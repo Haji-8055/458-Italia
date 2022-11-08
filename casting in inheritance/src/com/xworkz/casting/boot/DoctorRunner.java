@@ -30,7 +30,7 @@ public class DoctorRunner {
 		System.out.println(ent.name);
 		System.out.println(ent.age);
 		
-		ENT ent1=(ENT)ent;
+		ENT ent1=(ENT)ent;// casting
 		System.out.println(ent1.operation);
 		System.out.println(ent1.hours);
 		
@@ -38,7 +38,7 @@ public class DoctorRunner {
 		System.out.println(cardio.name);
 		System.out.println(cardio.age);
 		
-		Cardiologist cardio1=(Cardiologist)cardio;
+		Cardiologist cardio1=(Cardiologist)cardio;//casting
 		System.out.println(cardio1.disease);
 		System.out.println(cardio1.assistants);
 		
