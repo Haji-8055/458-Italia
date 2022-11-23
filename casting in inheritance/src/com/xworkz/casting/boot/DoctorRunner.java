@@ -21,6 +21,10 @@ public class DoctorRunner {
 		System.out.println(doctor1.age);
 		
 		//  in order to access properties of child class ,casting is done
+		//Doctor doctor1 = new Doctor(); 
+		// Dentist doc=(Dentist)doctor1;if i try to convert this parent ref into child ref it will throw classCastException
+		//i.e if datatype and class being copied is parent 
+		
 		
 		Dentist doc=(Dentist)doctor1; // -->casting: conversion of parent class ref   to child class ref
 		System.out.println(doc.hospital);

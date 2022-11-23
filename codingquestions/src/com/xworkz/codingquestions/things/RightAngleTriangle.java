@@ -1,4 +1,4 @@
-package com.xworkz.codingquestions;
+package com.xworkz.codingquestions.things;
 
 public class RightAngleTriangle {
 
@@ -28,3 +28,8 @@ public class RightAngleTriangle {
 	}
 
 }
+/* @  @  @ 
+   @  @ 
+   @  
+ */
+

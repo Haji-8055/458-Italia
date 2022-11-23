@@ -1,4 +1,4 @@
-package com.xworkz.codingquestions;
+package com.xworkz.codingquestions.things;
 
 public class InvertedTriangle {
 
@@ -23,3 +23,8 @@ public class InvertedTriangle {
 	}
 
 }
+/*output:
+  ####
+   ###
+    ##
+     #*/

@@ -1,4 +1,4 @@
-package com.xworkz.codingquestions;
+package com.xworkz.codingquestions.things;
 
 public class LeftAngleTriangle {
 
@@ -19,6 +19,17 @@ public class LeftAngleTriangle {
 			System.out.println();
 		}
 		
+		/*output
+		  
+		     #
+		    ##
+		   ###
+		  ####
+		 #####
+		######
+		 
+		 */
+		
 		
 		int d=6;  
 		//main loop
@@ -34,6 +45,16 @@ public class LeftAngleTriangle {
 			}
 			System.out.println();
 		}
+		/*output
+		  
+	     # 
+	    # # 
+	   # # # 
+	  # # # # 
+	 # # # # # 
+	# # # # # #
+	 
+	 */
 	}
 
 }
