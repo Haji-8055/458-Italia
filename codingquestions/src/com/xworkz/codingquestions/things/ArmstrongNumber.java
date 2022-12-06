@@ -6,7 +6,7 @@ public class ArmstrongNumber {
 
 		int number=153;
 		
-		int[] array=number;
+
 	}
 
 }

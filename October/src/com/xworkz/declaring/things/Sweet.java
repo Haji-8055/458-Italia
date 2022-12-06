@@ -2,9 +2,9 @@ package com.xworkz.declaring.things;
 
 public class Sweet {
 
-	public String name = "motichoorLaddu";
-	public double quantity;
-	public int price;
+	public String name = "motichoorLaddu";// literal
+	public double quantity;// Initializing using method
+	public int price;// Initializing using constructor
 	public static String color;
 	public String shopName;
 

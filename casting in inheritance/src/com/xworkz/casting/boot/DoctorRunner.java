@@ -15,17 +15,17 @@ public class DoctorRunner {
 		System.out.println(doctor.fees);
 		
 		
+	
 
 		Doctor doctor1 = new Dentist(); // if we make a copy of child class with parent class datatype,it will call both the constructor but only the properties of parent class can be accessed
 		System.out.println(doctor1.name);
 		System.out.println(doctor1.age);
 		
-		//  in order to access properties of child class ,casting is done
 		//Doctor doctor1 = new Doctor(); 
-		// Dentist doc=(Dentist)doctor1;if i try to convert this parent ref into child ref it will throw classCastException
-		//i.e if datatype and class being copied is parent 
+		// Dentist doc=(Dentist)doctor1;if you try to convert this parent ref into child ref it will throw classCastException
 		
 		
+		//  in order to access properties of child class ,casting is done
 		Dentist doc=(Dentist)doctor1; // -->casting: conversion of parent class ref   to child class ref
 		System.out.println(doc.hospital);
 		System.out.println(doc.fees);
