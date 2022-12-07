@@ -5,18 +5,20 @@ public class DuplicateInArray {
 	public static void main(String[] args) {
 
 		int[] arr = { 2, 6, 2, 7, 5, 8, 2, 5, 6, 6 };
-		int ref = 1;
 
 		for (int i = 0; i < arr.length; i++) {
 
-			if (arr[i] == arr[ref]) {
+			for (int j = i + 1; j < arr.length; j++) {
 
-				System.out.println(arr[i]);
+				if (arr[i] == arr[j]) {
+
+					System.out.println(arr[j]);
+
+				}
 
 			}
 
 		}
-		ref++;
-	}
 
+	}
 }
