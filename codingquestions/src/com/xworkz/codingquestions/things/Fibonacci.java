@@ -16,6 +16,7 @@ public class Fibonacci {
 		for (int i = 2; i < 20; i++) {
 
 			fibonacci = firstFibonacci + secondFibonacci;
+			
 			System.out.println(i + " fibonacci " + fibonacci);
 
 			firstFibonacci = secondFibonacci;

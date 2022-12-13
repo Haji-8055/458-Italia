@@ -6,7 +6,7 @@ public class NumbersTriangle {
 
 		int d = 6;
 		// main loop
-		for (int i = 0; i <= d; i++) {
+		for (int i = 1; i <= d; i++) {
 			// printing space
 			for (int j = d - 1; j >= i; j--) {
 				System.out.print(" ");

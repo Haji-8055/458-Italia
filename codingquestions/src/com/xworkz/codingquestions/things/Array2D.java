@@ -10,7 +10,7 @@ public class Array2D {
 
 			for (int j = 0; j < a[i].length; j++) {
 
-				System.out.print(a[i][j]);// indicates array of i index and j element in array
+				System.out.print(a[i][j]+" ");// indicates array of i index and j element in particular i array
 			}
 
 			System.out.println();

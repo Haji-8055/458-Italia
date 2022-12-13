@@ -4,7 +4,7 @@ public class PrimeNumber {
 
 	public static void main(String[] args) {
 
-		int number = 16;
+		int number = 17;
 		int count = 0;
 
 		for (int i = 1; i <= number; i++) {
@@ -22,7 +22,8 @@ public class PrimeNumber {
 		
 		
 		System.out.println("====using while loop====");
-		int i = 13;
+		int i = 23;
+		
 		int j = 2;
 		int ch = 0;
 		if (i <= 1) {
