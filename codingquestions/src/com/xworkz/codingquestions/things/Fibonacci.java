@@ -13,7 +13,7 @@ public class Fibonacci {
 
 		int fibonacci;
 
-		for (int i = 2; i < 20; i++) {
+		for (int i = 2; i < 9; i++) {
 
 			fibonacci = firstFibonacci + secondFibonacci;
 			

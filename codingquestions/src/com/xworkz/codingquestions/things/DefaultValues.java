@@ -14,6 +14,8 @@ public class DefaultValues {
 	static int num2 = 20;
 
 	static int sum = num2 + Integer.parseInt(num); // wrapper class
+	
+	
 
 	public static void main(String[] args) {
 

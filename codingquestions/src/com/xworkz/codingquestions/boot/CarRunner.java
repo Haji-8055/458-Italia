@@ -7,8 +7,9 @@ public class CarRunner {
 
 		Car car = new Car("tata");
 
-		Car car1 = new Car(car /* previous object */); 		// copy constructor: creating a new object using another object
+		Car car1 = new Car(car /* previous object */); // copy constructor: creating a new object using another object
 
 	}
+	
 
 }

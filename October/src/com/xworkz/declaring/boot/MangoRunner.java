@@ -8,7 +8,7 @@ public class MangoRunner {
 
 		Mango aam = new Mango(850);
 		aam.quantity = 1000d;
-		aam.setTaste();
+		aam.setTaste(null);
 		Mango.color = "orange"; // static
 		aam.display();
 
