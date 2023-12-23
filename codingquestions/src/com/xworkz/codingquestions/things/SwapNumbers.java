@@ -8,7 +8,7 @@ public class SwapNumbers {
 		int a=20;
 		int b=5;
 		int temp=0;
-		System.out.println("before swapping value of a :"+a +" and b :"+b);
+		System.out.println("before swapping value of a :"+a +" and value of b :"+b);
 		
 		temp=a;
 		a=b;
@@ -23,12 +23,12 @@ public class SwapNumbers {
 		System.out.println(System.lineSeparator());
 		int c=18;
 		int d=7;
-		System.out.println("before swapping value of c :"+c +" and d :"+d);
+		System.out.println("before swapping value of c :"+c +" and value of d :"+d);
 
 		c=c+d;// c=18+7-->25
 		d=c-d; //d=25-7-->18
 		c=c-d;  //c=25-18-->7
-		System.out.println("after swapping value of c :"+c +" and d :"+d);
+		System.out.println("after swapping value of c :"+c +" and value of d :"+d);
 
 		
 		

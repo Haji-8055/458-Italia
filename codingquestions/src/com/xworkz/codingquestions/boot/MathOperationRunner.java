@@ -1,6 +1,6 @@
 package com.xworkz.codingquestions.boot;
 
-import com.xworkz.codingquestions.MathOperation;
+import com.xworkz.codingquestions.things.MathOperation;
 
 public class MathOperationRunner {
 
